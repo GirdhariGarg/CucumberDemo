@@ -78,8 +78,7 @@ public class Hooks {
 		}
 		Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000))
 				.takeScreenshot(driver);
-		ImageIO.write(screenshot.getImage(), "PNG", new File(
-				"C:\\Users\\garga\\eclipse-workspace\\CucumberDemo\\ExtentReports\\" + sce.getName() + ".png"));
+		ImageIO.write(screenshot.getImage(), "PNG", new File(System.getProperty("user.dir")+"\\Screenshots\\" + sce.getName() + ".png"));
 		// sce.attach(screenshot, "image/png", sce.getName());
 		byte[] imageBytes = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 		// Files.write(Paths.get(RESULT_FILENAME), imageBytes);
