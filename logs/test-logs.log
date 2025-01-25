@@ -1,0 +1,8 @@
+2025-01-24 18:50:32 [TestNG-PoolService-1] INFO : under @before func
+2025-01-24 18:50:32 [TestNG-PoolService-2] INFO : under @before func
+2025-01-24 18:50:32 [TestNG-PoolService-3] INFO : under @before func
+2025-01-24 18:50:41 [TestNG-PoolService-3] INFO : under @before func
+2025-01-24 18:54:55 [TestNG-PoolService-2] INFO : under @before func
+2025-01-24 18:54:55 [TestNG-PoolService-3] INFO : under @before func
+2025-01-24 18:54:55 [TestNG-PoolService-1] INFO : under @before func
+2025-01-24 18:55:08 [TestNG-PoolService-3] INFO : under @before func
